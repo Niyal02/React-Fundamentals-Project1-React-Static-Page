@@ -1,0 +1,25 @@
+.navbar{
+    display: flex;
+    background-color: #21222A;
+    color: white;
+    align-items: center;
+    height: 90px;
+    padding: 10px 20px;  /* from all sides the size/space is reduced for the content inside */
+}   
+
+.navbar > img{
+  margin-right: 10px;  /* right side bata push gardai janxa left tira / right side space of image is increased */
+  width: 70px;
+}
+
+.nav__logo_text{
+    color: #61DAFB;
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.nav__title{
+    margin-left: auto;
+    font-weight: 600;
+    padding-right: 10px;
+}

@@ -1,0 +1,19 @@
+.main{
+    padding: 25px 100px;  /* 55px is top and bottom, 23px is left and right*/
+    color: white;
+}
+
+.title{
+    font-size: 38px;
+}
+
+.facts{
+    margin-top: 30px;    /* from title to lists/points */
+    line-height: 35px;  /* height spacing between points up and down */
+}
+
+.facts > li::marker{
+    font-size: 1.5rem;  /* rem is root element, thats size is equal to root size i.e 1rem = 14,15,16px */
+    color: #61DAFB;
+}
+

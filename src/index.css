@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@400,600,700&display=swap');
+
+body{
+    margin: 0;
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    background-color: #282D35;
+    background-image: url(https://imgs.search.brave.com/O2kKZBYHahOMOWy0UyGauA60Aj-x7Qyi6wIA2vFygfg/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9zdGF0/aWMuZGhpd2lzZS5j/b20vRGhpV2lzZS1v/bmUvSGVhZGVyL1Jl/YWN0LnN2Zz93PTM4/NDAmcT03NQ);
+    background-repeat: no-repeat;
+    background-position: 15cm 4.5cm;  /* 15cm is left/right and4.5 is y-axis */
+    background-size: inherit;
+}
