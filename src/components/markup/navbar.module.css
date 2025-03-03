@@ -1,11 +1,26 @@
-.navbar{
+.navbar, .navbar__light{
     display: flex;
-    background-color: #21222A;
-    color: white;
     align-items: center;
     height: 90px;
     padding: 10px 20px;  /* from all sides the size/space is reduced for the content inside */
+} 
+
+.navbar {
+    background-color: #21222A;
+    color: white;
+}
+
+.navbar__light{
+    background-color: #fff;
+    color: black;
 }   
+
+.toggler{
+    border-radius: 6px;
+    height: 20px;
+    margin-left: 1050px;
+    margin-bottom: 6px;
+}
 
 .navbar > img{
   margin-right: 10px;  /* right side bata push gardai janxa left tira / right side space of image is increased */

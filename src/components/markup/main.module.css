@@ -1,6 +1,12 @@
-.main{
+.main, .main__light{
     padding: 25px 100px;  /* 55px is top and bottom, 23px is left and right*/
     color: white;
+    max-width: 100%;
+}
+
+.main__light{
+    background-color: #fff;
+    color: black;
 }
 
 .title{
@@ -12,7 +18,7 @@
     line-height: 35px;  /* height spacing between points up and down */
 }
 
-.facts > li::marker{
+.facts > li::marker{        /* marker is used to modify the design of bullet points */
     font-size: 1.5rem;  /* rem is root element, thats size is equal to root size i.e 1rem = 14,15,16px */
     color: #61DAFB;
 }
